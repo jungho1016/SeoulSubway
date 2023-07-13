@@ -1,6 +1,5 @@
+import 'package:seoulsubway/data/dto/subway_dto.dart';
 import 'package:seoulsubway/domain/subway_model/subway.dart';
-
-import '../data_source/SubwayDto.dart';
 
 extension ToSubway on RealtimeArrivalList {
   Subway toSubway() {

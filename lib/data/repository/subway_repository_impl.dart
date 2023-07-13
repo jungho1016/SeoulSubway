@@ -1,10 +1,8 @@
-import 'package:seoulsubway/data/data_source/SubwayDto.dart';
-import 'package:seoulsubway/data/mapper/subway_mapper.dart';
-
+import 'package:seoulsubway/data/data_source/subway_data_source.dart';
 import 'package:seoulsubway/domain/subway_model/subway.dart';
-
-import '../../domain/subway_repository/subway_repository.dart';
-import '../data_source/subway_data_source.dart';
+import 'package:seoulsubway/domain/subway_repository/subway_repository.dart';
+import 'package:seoulsubway/data/mapper/subway_mapper.dart';
+import '../dto/subway_dto.dart';
 
 class SubwayRepositoryImple implements SubwayRepository {
   final SubwayDataSource _api = SubwayDataSource();

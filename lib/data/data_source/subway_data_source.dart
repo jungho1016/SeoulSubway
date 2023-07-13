@@ -1,7 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'SubwayDto.dart';
+
+import '../dto/subway_dto.dart';
 
 class SubwayDataSource {
   Future<SubwayDto> getInformaition(String query) async {
